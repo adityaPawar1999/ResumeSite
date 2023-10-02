@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.orangeText{
+    color: rgb(255, 191, 0);
+}
+.containerWidth{
+    width: 100%;
+}
+
+.leftBar{
+    background-color: #212121;   
+    color: #fff;
+    height: 100vh;
+}
+.sticky-right-bar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100vh; 
+    overflow-y: auto; 
+}
+
+.profileImg{
+    width: 100%;
+    object-fit: cover;
+    max-height: 250px;
+    min-height: 200px;
+}
+.leftBar .basicDetails{
+ padding: 20px;   
+}
+.leftBar  h2{
+    font-weight: 800;
+}
+.leftBar .sbutitle{
+    font-size: .9rem;
+}
+.leftBar .objective{
+    color: gray;
+    font-size: .8rem;
+    padding-bottom: 20px;
+}
+.contactInfo{
+    font-size: .8rem;
+}
+.contactInfo a{
+    text-decoration: none;
+    color: #fff;
+}
+.contactInfo p i {
+    padding-right: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+.linksBox {
+    padding-top: 20px;
+}
+.linksBox a{
+    color: #fff;
+}
+.linksBox a:hover{
+    transition: 1s;
+    color: rgb(255, 191, 0);
+}
+
+.linksBox i{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.sections{
+    padding: 70px;
+}
+ .educationCard{
+    padding: 10px;
+}
+.rightBar .educationLocation{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.rightBar span{
+    vertical-align: middle;
+    font-size: 1rem;
+    padding-left: 10px;
+    font-weight: 500;
+    color: rgb(255, 191, 0);
+}
+.rightBar span i{
+    color: rgb(255, 191, 0);
+    padding-right: 5px;
+}
+.educationPara{
+    font-size: .8rem;
+    color: gray;
+}
+.projectName{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.educationCard i{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+.skills{
+    margin-bottom: 50px;
+}
+.bottle p{
+    border: 1px solid #fff;
+}   
+.frontEnd h3{
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+}
+.iconsSize{
+    font-size: 2rem;
+}
+
+
+.educationCard:hover{
+    transition: .9s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+
+
+.lastSection{
+    margin-bottom: 40px;
+}
+
+li{
+    list-style: none;
+   font-size:.8rem; 
+   color: gray;
+   padding-top: 10px;
+}
+li b{
+    color: #333;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.hobbies li{
+    padding: 10px;
+}
+.hobbies li h3{
+    color: #333;
+    font-weight: 700;
+}
+.subline{
+    width: 30%;
+}
